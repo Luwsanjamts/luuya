@@ -1,0 +1,41 @@
+
+#body{
+    background-image: url(gif/fire1.webp) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+ai{
+    background: transparent;
+    backdrop-filter: blur(4px)
+}
+.col{
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.col :hover{
+    height: 200px;
+    box-shadow: 10px 10px 5px gray;
+}
+hide{
+    display: block;
+}
+col:hover.hide{
+    display: block;
+}
+.container{
+    height: 400px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    background:transparent;
+    backdrop-filter: blur(5px);
+}
